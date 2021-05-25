@@ -28,9 +28,9 @@ class ApiRestHerokuApplicationTests {
 		 // Insertar
 	//	 System.out.println(alumservice.create(new Alumno("Mario", "Mariospy@gmail.com", "996362123")).getNombres());
 		// System.out.println(alumservice.create(new Alumno("Manuel", "manuelpy@gmail.com", "993125784")).getNombres());
-		
+	 //	 System.out.println(alumservice.create(new Alumno("Juanito", "juanitospy@gmail.com", "653214789")).getNombres());
 		// Eliminar es en el postman
-		
+			// alumservice.delete(new Long(3));
 		
 		
 		// Actualizar por postman
