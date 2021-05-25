@@ -26,16 +26,16 @@ public class AlumnoController {
 	public List<Alumno> getList(){
 		return alumnoservice.readAll();
 	}
-	@DeleteMapping("/user/delete/{id}")
+	@DeleteMapping("/alumno/delete/{id}")
 	public String delete(@PathVariable Long id){
 		alumnoservice.delete(id);
 		return "Usuario Eliminado";
 	}
-	@GetMapping("/user/{id}")
+	@GetMapping("/alumno/{id}")
 	public Alumno read(@PathVariable Long id){
 		return alumnoservice.read(id);
 	}
-	@PutMapping("/user/update/{id}")
+	@PutMapping("/alumno/update/{id}")
 	public String update(@PathVariable Long id, @RequestBody Alumno alumno){
 		System.out.println(id);
 		Alumno alu = alumnoservice.read(id);

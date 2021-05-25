@@ -29,8 +29,11 @@ class ApiRestHerokuApplicationTests {
 	//	 System.out.println(alumservice.create(new Alumno("Mario", "Mariospy@gmail.com", "996362123")).getNombres());
 		// System.out.println(alumservice.create(new Alumno("Manuel", "manuelpy@gmail.com", "993125784")).getNombres());
 	 //	 System.out.println(alumservice.create(new Alumno("Juanito", "juanitospy@gmail.com", "653214789")).getNombres());
+		// System.out.println(alumservice.create(new Alumno("Felipe", "felipepy@gmail.com", "456321879")).getNombres());
+		// System.out.println(alumservice.create(new Alumno("Miranda", "mirandapy@gmail.com", "639456258")).getNombres());
 		// Eliminar es en el postman
-			// alumservice.delete(new Long(3));
+			// alumservice.delete(new Long(5));
+		// 	System.out.println("Ha sido eliminado correctamente..");
 		
 		
 		// Actualizar por postman
